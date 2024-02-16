@@ -7,9 +7,72 @@
     <link rel="stylesheet" type="text/css" href="../stiles.css">
 </head>
 <body>
-    <section>
-       <h1>Conocimientos en Css</h1>
-    </section>
+    <header><h1>Conocimientos en CSS</h1>
+        <img src="../img/css.png"></header>
+            <nav><h1>Selectores CSS</h1></nav>
+                <p>Un selector CSS es la primera parte de una regla CSS. Es un patrón de elementos y otros términos que indican al navegador qué elementos HTML se seleccionan para aplicarles una regla que incluye los valores de las propiedades CSS</p>
+                <section>
+                    <table>
+                        <colgroup span="3" class="columns"></colgroup>
+                        <tr>
+                          <th>Nombre del selector</th>
+                          <th>Que selecciona</th>
+                          <th>Ejemplo</th>
+                        </tr>
+                        <tr>
+                          <td>Selector de elemento (llamado algunas veces selector de etiqueta o tipo)</td>
+                          <td>Todos los elementos HTML del tipo especificado.</td>
+                          <td>p<br>
+                            Selecciona <code>p</code></td>
+                        </tr>
+                        <tr>
+                          <td>Selector de identificación (ID)</td>
+                          <td>El elemento en la página con el ID especificado (en una página HTML dada, solo se permite un único elemento por ID).</td>
+                          <td>#mi-id
+                            Selecciona <code>p id="mi-id"</code> y <code>a id="mi-id"</code></td>
+                        </tr>
+                        <tr>
+                            <td>Selector de clase</td>
+                            <td>Los elementos en la página con la clase especificada (una clase puede aparecer varias veces en una página).</td>
+                            <td><code>.mi-clase</code> <br> Selecciona <code>p class="mi-clase"</code> y <code> a class="mi-class"</code></td>
+                        </tr>
+                        <tr>
+                            <td>Selector de atributo</td>
+                            <td>Los elementos en una página con el atributo especificado.</td>
+                            <td><code>img[src]</code><br> Selecciona <code>src="miimagen.png"</code> pero no <code>img</code></td>
+                        </tr>
+                        <tr>
+                            <td>Selector de pseudoclase</td>
+                            <td>Los elementos especificados, pero solo cuando esté en el estado especificado, por ejemplo cuando el puntero esté sobre él.</td>
+                            <td><code>a:hover</code><br> Selecciona <code>a<code>, pero solo cuando el puntero este sobre el enlace.</td>
+                        </tr>
+                      </table>   
+                    <li>
+                        <ul>Lista de selectores<br>
+                            <p>Si más de un elemento utiliza el mismo CSS, puedes combinar los selectores en una lista de selectores para que la regla se aplique a cada uno de los selectores individuales. Por ejemplo, si tengo el mismo CSS para un h1 y para una clase .special, los puedo escribir como dos reglas separadas.</p>
+                                <img src="../img/css selector.png"/></ul>
+                        <ul>background-color<br>
+                            <p>Agrega fondo de color ala pagina.</p></ul>
+                        <ul>color<br>
+                            <p>Agrega color al texto u objeto.</p></ul>
+                        <ul>widht y height <br>
+                            <p>Ancho del elemento.</p></ul>
+                        <ul>text shadow<br>
+                            <p>Coloca una sombre difuminada en el texto dentro del elemento.</p></ul>
+                        <ul>text-decoration<br> 
+                            <p>Propiedad que permite agrega color al fondo del texto.<br>
+                        <ul>display<br>
+                            <p>selecciona el modo de visualizacion del elemnto.</p></ul>
+                        <ul>margin<br>
+                            <p>Establece el margen para los cuatro lados.</p></ul>
+                        <ul>/* y */<br>
+                            <p>Permite hacer comentarios en Css.</p></ul>
+                        <ul>border<br>
+                            <p>Esta propiedad permite definir en una unica regla todos los bordes de los elementos seleccionados.</p></ul>
+                        <ul>aling items</ul>
+                            <p>Alinea los items segun sea la siguiente pseudoclase.</p>
+                    </li>
+                </section>
 </body>
 <footer>
     <img src ="../img/logosena.png" alt="Logo sena" id="Sena">
@@ -19,4 +82,5 @@
     Centro de Desarrollo Agroempresarial y Pecuario del Huila<br>
     SENA 2024  
 </footer>
+
 </html>
